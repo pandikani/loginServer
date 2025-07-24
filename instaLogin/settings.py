@@ -58,6 +58,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "https://new-insta-3iy6-qx3bsxu5i-pandikanis-projects.vercel.app",
 ]
+CORS_ALLOW_ALL_ORIGINS = False 
 CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'instaLogin.urls'
