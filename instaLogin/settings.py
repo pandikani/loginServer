@@ -56,8 +56,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://molshey.vercel.app",
-    "http://localhost:3000",
+    "https://new-insta-3iy6-qx3bsxu5i-pandikanis-projects.vercel.app",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
