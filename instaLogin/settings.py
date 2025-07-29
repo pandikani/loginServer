@@ -41,9 +41,22 @@ INSTALLED_APPS = [
     'rest_framework',
     'login'
 ]
+CORS_ALLOW_ALL_ORIGINS = True  
+CORS_ALLOW_METHODS = [
+    "GET",
+    "POST",
+    "PUT",
+    "PATCH",
+    "DELETE",
+    "OPTIONS", 
+]
 
 MIDDLEWARE = [
+<<<<<<< HEAD
      'corsheaders.middleware.CorsMiddleware',
+=======
+    'corsheaders.middleware.CorsMiddleware',
+>>>>>>> 4ed8fe9 (change)
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
